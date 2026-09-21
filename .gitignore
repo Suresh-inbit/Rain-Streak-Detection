@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Downloaded/generated datasets (fetch per data/README.md instead of committing)
+data/raw/*
+!data/raw/.gitkeep
+data/validation/images/*
+!data/validation/images/.gitkeep
+data/validation/gt_masks/*
+!data/validation/gt_masks/.gitkeep
+data/synthetic_demo/
+
+# Detection outputs
+results/*
+!results/.gitkeep
